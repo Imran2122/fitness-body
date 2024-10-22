@@ -115,17 +115,15 @@ body {
 .cart {
   margin-top: -140px;
 }
-.cart-2{
-    margin-top: -400px;
-   margin-left: 250px;
-   
-   
+.cart-2 {
+  margin-top: -400px;
+  margin-left: 250px;
 }
 
 /* nav container end */
 
 /* main-container start */
-.team-container{
+.team-container {
   margin-top: 150px;
   display: flex;
   align-items: center;
@@ -133,29 +131,85 @@ body {
   flex-direction: column;
   color: aliceblue;
 }
+.run {
+  margin: 50px;
+}
 
-.group-cart{
+.group-cart {
   max-width: 1220px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   color: white;
   margin: 0 auto;
- 
-;
 }
-.cards{
-  
+.cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.cards p{
+.cards p {
   width: 231px;
   font-size: 14px;
-font-weight: 400;
+  font-weight: 400;
 }
-.cards img{
+.cards img {
   border-radius: 50%;
 }
+
+/* 2nd main */
+.run-container {
+  margin-top: 50px;
+  border-radius: 18px;
+  max-width: 1220px;
+  justify-content: space-around;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  color: aliceblue;
+}
+.run-cart {
+  margin-left: 40px;
+}
+
+.run-image {
+  width: 366px;
+  height: 312px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 18px;
+}
+.run-item {
+  width: 443px;
+  height: 116px;
+  font-size: 3rem;
+}
+.run-paragraph {
+  max-width: 440px;
+  font-size: 0.8rem;
+}
+/* end */
+.table-container {
+  display: flex;
+}
+.calculator-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+.table {
+  color: white;
+  border-collapse: collapse;
+  width: 310px;
+  height: 216px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* now */
+
+
+
 /* main container end */
