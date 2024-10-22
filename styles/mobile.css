@@ -15,5 +15,17 @@
     .header{
       font-size: 3.5rem;
     } 
+    .team-container{
+        margin-top: 350px;
+      
+    }
+ .cards p{
+   width: 100%;
+   text-align: center;
+ }
+    .group-cart{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
     
 }

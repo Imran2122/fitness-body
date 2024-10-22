@@ -123,3 +123,39 @@ body {
 }
 
 /* nav container end */
+
+/* main-container start */
+.team-container{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.group-cart{
+  max-width: 1220px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  color: white;
+  margin: 0 auto;
+ 
+;
+}
+.cards{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.cards p{
+  width: 231px;
+  font-size: 14px;
+font-weight: 400;
+}
+.cards img{
+  border-radius: 50%;
+}
+/* main container end */
