@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width:576px){
+    .nav-item{
+        display: none;
+    }
+    .hambargar-container{
+        display: block;
+  margin: 10px;
+        
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .header{
+      font-size: 3.5rem;
+    } 
+    
+}
