@@ -6,7 +6,7 @@
     }
     .hambargar-container{
         display: block;
-  margin: 10px;
+ 
         
     }
     .banner{
@@ -39,6 +39,48 @@
     .run-image, .banner-image{
         width: 100%;
     }
+    .table-container{
+        flex-direction: column;
+    }
+    .bmi-header{
+        margin-top: 80px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .table{
+     margin: 0 auto;
+    }
+    .bmi-description, .calculator-header{
+        text-align: center;
+    }
+    .btn-primary{
+       text-align: center;
+    }
+
+    .fintess-cart{
+        margin-top: 10px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+        
+      }
+      
+      .card-group img {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+      }
+
+      .footer-sectoion{
+        grid-template-columns: repeat(1,1fr);
+      margin-left: 60px;
+    
+        align-items: center;
+        
+      }
+      
+  
+   
     
     
 }
