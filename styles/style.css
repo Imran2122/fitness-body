@@ -95,11 +95,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
 
-  backdrop-filter: blur(20px);
-  background: rgba(48, 48, 48, 0.54);
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(54, 52, 56) 100%);
   gap: 5px;
   height: 96px;
- 
 }
 .free-video {
   width: 193px;
@@ -107,9 +105,7 @@ body {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-
-  backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(54, 52, 56) 100%);
   text-align: center;
 }
 .cart {
@@ -334,10 +330,25 @@ footer {
   margin: 20px auto;
 }
 .hr-line {
-  width: 100%; /* On larger screens, use full width */
+  width: 100%;
 }
-.hide{
-  display:none;
+
+.unik-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 30px 20px 40px 30px;
+}
+
+.unik-image img:hover {
+  transform: scale(0.5) rotate(180deg);
+}
+.unik-image img {
+  width: 100%;
+}
+.unice-header {
+  text-align: center;
+  color: #dddddd;
 }
 
 /* main container end */

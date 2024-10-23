@@ -1,86 +1,79 @@
+@media screen and (max-width: 576px) {
+  .nav-item {
+    display: none;
+  }
+  .hambargar-container {
+    display: block;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .header {
+    font-size: 3.5rem;
+  }
+  .team-container {
+    margin-top: 350px;
+  }
+  .cards p {
+    width: 100%;
+    text-align: center;
+  }
+  .group-cart {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .run-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .run-item {
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+  }
+  .run-image,
+  .banner-image {
+    width: 100%;
+  }
+  .table-container {
+    flex-direction: column;
+  }
+  .bmi-header {
+    margin-top: 80px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .table {
+    margin: 0 auto;
+  }
+  .bmi-description,
+  .calculator-header {
+    text-align: center;
+  }
+  .btn-primary {
+    text-align: center;
+  }
 
+  .fintess-cart {
+    margin-top: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
 
-@media screen and (max-width:576px){
-    .nav-item{
-        display: none;
-    }
-    .hambargar-container{
-        display: block;
- 
-        
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .header{
-      font-size: 3.5rem;
-    } 
-    .team-container{
-        margin-top: 350px;
-      
-    }
- .cards p{
-   width: 100%;
-   text-align: center;
- }
-    .group-cart{
-        width: 100%;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .run-container{
-        flex-direction: column;
-        gap: 10px;
-    }
-    .run-item{
-        font-size: 20px;
-        width: 100%;
-        height: 20px;
-    }
-    .run-image, .banner-image{
-        width: 100%;
-    }
-    .table-container{
-        flex-direction: column;
-    }
-    .bmi-header{
-        margin-top: 80px;
-        font-size: 1rem;
-        text-align: center;
-    }
-    .table{
-     margin: 0 auto;
-    }
-    .bmi-description, .calculator-header{
-        text-align: center;
-    }
-    .btn-primary{
-       text-align: center;
-    }
+  .card-group img {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .fintess-cart{
-        margin-top: 10px;
-        grid-template-columns: repeat(1,1fr);
-        gap: 15px;
-        
-      }
-      
-      .card-group img {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
+  .footer-sectoion {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 60px;
 
-      }
+    align-items: center;
+  }
 
-      .footer-sectoion{
-        grid-template-columns: repeat(1,1fr);
-      margin-left: 60px;
-    
-        align-items: center;
-        
-      }
-      
-  
-   
-    
-    
+  .unik-image{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
